@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="our_requirement">our requirement</a></li>
+					<li><a href="#we_offer">we offer</a></li>
+					<li><a href="#contacts">contacts</a></li>
+				</ul>
+			</nav>
+			<div class="form">
+				<h3>sent request</h3>
+				<form action="">
+					<div class="form_input">
+						<input type="text" placeholder="input your name">
+					</div>
+					<div class="form_input">
+						<label for="email">input email</label>
+						<input id="email" type="email" placeholder="input your email">
+					</div>
+					<div class="button">
+						<button>sent</button>
+					</div>
+				</form>
+			</div>
+			<img src="img/2.png" alt="">
+		</div>
+	</header>
+
+	<section id="our_requirement">
+		<div class="container">
+			<h2>our requirement</h2>
+				<div class="clear"></div>
+			<div class="wrap_requirement">
+				<div class="requirement">
+					<p><strong>name fonts:</strong> <br>
+						Main - <strong>cosmic</strong> <br>
+						secondary - <strong>minion pro</strong> <br>
+						text color - <strong>#272F2F</strong> <br>
+						color buttons (gradient) from <strong>#FB6A4E</strong> to <strong>#FF606A</strong>
+					</p>
+				</div>
+				<div class="box box1">
+					<img src="img/11.png" alt="">
+					<h3>Lorem ipsum</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo accusamus commodi, quasi obcaecati impedit et reiciendis fugiat sunt officiis voluptatibus!</p>
+				</div>
+				<div class="box box2">
+					<img src="img/22.png" alt="">
+					<h3>Lorem ipsum</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo accusamus commodi, quasi obcaecati impedit et reiciendis fugiat sunt officiis voluptatibus!</p>
+				</div>
+				<div class="box box3">
+					<img src="img/11.png" alt="">
+					<h3>Lorem ipsum</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo accusamus commodi, quasi obcaecati impedit et reiciendis fugiat sunt officiis voluptatibus!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="we_offer">
+		<div class="container">
+			<h3>we offer</h3>
+			<div class="block_wrap">
+				<div class="block">
+					<img src="img/3.png" alt="">
+					<p>career growth</p>
+				</div>
+				<div class="block">
+					<img src="img/a1.png" alt="">
+					<p>flexible working schedule</p>
+				</div>
+				<div class="block">
+					<img src="img/44.png" alt="">
+					<p>comfortable workplace</p>
+				</div>
+			</div>
+			<div class="block_wrap">
+				<div class="block">
+					<img src="img/55.png" alt="">
+					<p>competitive salary according to the quaifications</p>
+				</div>
+				<div class="block">
+					<img src="img/66.png" alt="">
+					<p>corporate leisure activities</p>
+				</div>
+				<div class="block">
+					<img src="img/77.png" alt="">
+					<p>english lessons</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacts">
+		<div class="container">
+			<h2>Contacts</h2>
+			<div class="form">
+				<h3>sent request</h3>
+				<form action="">
+					<div class="form_input">
+						<input type="text" placeholder="input your name">
+					</div>
+					<div class="form_input">
+						<label for="email_cont">input email</label>
+						<input id="email_cont" type="email" placeholder="input your email">
+					</div>
+					<div class="button">
+						<button>sent</button>
+					</div>
+				</form>
+			</div>
+			<div class="contact_right">
+				<h3>get in touch</h3>
+				<p> Ukrain, Lviv<br>
+					teephone:+38 000 000 0000 <br>
+					e-mail:pecodesoftware@gmail.com</p>
+				<div class="social_wrap">
+					<ul>
+						<li><a href="#" target="_blank"><img src="img/linkedin.png" alt=""></a></li>
+						<li><a href="#" target="_blank"><img src="img/twitter.png" alt=""></a></li>
+						<li><a href="#" target="_blank"><img src="img/fb.png" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</section>
+	<section id="map"></section>
+	<footer>
+		<p>Created by Atorvin Serhii</p>
+	</footer>
+
+	<script>
+      function initMap() {
+        var uluru = {lat: 49.83837452806359, lng: 24.02330750227391};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAsyEF0eXyRKKzwltR5k_5766ti2oT_po&callback=initMap">
+    </script>
+</body>
+</html>
+

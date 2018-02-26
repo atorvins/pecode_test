@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Cosmic";
+  src: url("/fonts/Cosmic.ttf"); }
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #fff;
+  color: #272F2F;
+  font-family: "Cosmic", "Minion Pro", sans-serif; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%; }
+
+nav {
+  padding-top: 20px;
+  margin-bottom: 200px; }
+  nav ul {
+    list-style: none;
+    float: right; }
+    nav ul li {
+      display: inline; }
+    nav ul a {
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-left: 20px;
+      color: #fff; }
+
+.clear {
+  clear: both; }
+
+header {
+  background-image: url(../img/bg/top-right.png);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100vh; }
+  header .container {
+    position: relative; }
+  header img {
+    width: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20%; }
+
+.form {
+  float: left; }
+  .form h3 {
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-size: 16px;
+    text-align: center; }
+  .form .form_input {
+    margin-bottom: 15px; }
+    .form .form_input label {
+      text-transform: uppercase;
+      color: #5ed9c6;
+      font-size: 12px; }
+  .form input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #5ed9c6;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 12px;
+    width: 240px; }
+    .form input:placeholder {
+      color: #d2d3d3; }
+  .form .button {
+    max-width: 170px;
+    margin: 0 auto; }
+  .form button {
+    line-height: 40px;
+    border-radius: 2px;
+    background: linear-gradient(to left, #FB6A4E, #FF606A);
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    width: 100%; }
+
+input, label {
+  display: block; }
+
+#our_requirement {
+  background-image: url(../img/bg/section.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  height: 100%; }
+  #our_requirement h2 {
+    float: right;
+    text-transform: uppercase;
+    padding: 35px 0; }
+  #our_requirement .wrap_requirement {
+    position: relative; }
+  #our_requirement .requirement {
+    text-transform: uppercase;
+    max-width: 350px;
+    position: absolute;
+    top: 0;
+    right: 0; }
+  #our_requirement .box {
+    width: 240px;
+    padding: 25px;
+    background-color: #ff2;
+    border-radius: 5px;
+    font-family: "Minion Pro"; }
+    #our_requirement .box img {
+      margin-top: 30px; }
+    #our_requirement .box h3 {
+      margin: 20px 0;
+      text-transform: uppercase; }
+  #our_requirement .box2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%); }
+  #our_requirement .box3 {
+    margin: 60px 0 90px; }
+
+#we_offer {
+  text-transform: uppercase; }
+  #we_offer h3 {
+    text-align: center; }
+  #we_offer .block_wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    align-items: center;
+    flex-wrap: wrap; }
+  #we_offer .block {
+    width: 20%;
+    text-align: center; }
+    #we_offer .block img {
+      width: 100%; }
+
+#contacts {
+  padding: 130px 0 60px 0;
+  background-image: url(../img/bg/contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #contacts h2 {
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center; }
+  #contacts .form h3 {
+    color: #fff; }
+  #contacts .contact_right {
+    text-transform: uppercase;
+    color: #fff;
+    float: right;
+    min-width: 270px; }
+    #contacts .contact_right h3 {
+      margin-bottom: 35px;
+      font-size: 16px;
+      text-align: center; }
+    #contacts .contact_right p {
+      line-height: 1.5;
+      font-size: 14px; }
+    #contacts .contact_right .social_wrap {
+      margin-top: 10px; }
+      #contacts .contact_right .social_wrap ul {
+        list-style: none; }
+        #contacts .contact_right .social_wrap ul li {
+          display: inline; }
+          #contacts .contact_right .social_wrap ul li a {
+            text-decoration: none;
+            margin-right: 20px; }
+
+#map {
+  width: 100%;
+  height: 300px; }
+
+footer {
+  background-image: url(../img/bg/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  footer p {
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
